@@ -1,0 +1,43 @@
+# Getting Started
+
+## Adding Pages
+
+Create a new `.mdx` file in the `pages/` directory, then register it in `config/pages.js`:
+
+```js
+import { lazy } from "react";
+
+const MyPageMDX = lazy(() => import("@pages/my-page.mdx"));
+
+export const pages = [
+  // ...existing pages
+  {
+    name: "My Page",
+    route: "/my-page",
+    component: MyPageMDX,
+  },
+];
+```
+
+## Using Components
+
+Any MUI component can be used directly in MDX without importing:
+
+```mdx
+<Button variant="contained" color="primary">
+  Click me
+</Button>
+```
+
+For components outside of MUI, add an import at the top of the MDX file.
+
+## Site Config
+
+Update `config/site.js` to set your site name and description:
+
+```js
+export const site = {
+  name: "My Docs",
+  description: "My project documentation",
+};
+```

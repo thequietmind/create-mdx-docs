@@ -1,0 +1,19 @@
+{
+  "name": "create-mdx-docs",
+  "version": "0.1.1",
+  "type": "module",
+  "description": "Create a new MDX Docs site",
+  "bin": {
+    "create-mdx-docs": "./bin/create-mdx-docs.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
