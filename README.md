@@ -1,6 +1,8 @@
 # create-mdx-docs
 
-Scaffold a new [MDX Docs](https://mdxdocs.com) site in seconds.
+Scaffold a new [MDX Docs](https://github.com/thequietmind/mdx-docs) site in seconds.
+
+Demo: [mxdocs.com](https://mdxdocs.com)
 
 ## Usage
 
