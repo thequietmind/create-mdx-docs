@@ -2,7 +2,7 @@
 
 Scaffold a new [MDX Docs](https://github.com/thequietmind/mdx-docs) site in seconds.
 
-Demo: [mxdocs.com](https://mdxdocs.com)
+**Demo:** [https://mdxdocs.com/](https://mdxdocs.com/)
 
 ## Usage
 
