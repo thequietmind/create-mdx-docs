@@ -1,8 +1,16 @@
 # create-mdx-docs
 
+<p>
+  <a href="https://github.com/thequietmind/mdx-docs">
+    <img src="https://img.shields.io/badge/GitHub-mdx--docs-black?logo=github" height="28">
+  </a>
+</p>
+
 Scaffold a new [MDX Docs](https://github.com/thequietmind/mdx-docs) site in seconds.
 
 **Demo:** [https://mdxdocs.com/](https://mdxdocs.com/)
+
+**GitHub:** [https://github.com/thequietmind/mdx-docs](https://github.com/thequietmind/mdx-docs)
 
 ## Usage
 
