@@ -8,7 +8,6 @@ export const pages = [
     name: "Home",
     route: "/",
     component: HomeMDX,
-    isDefault: true,
   },
   {
     name: "Getting Started",
