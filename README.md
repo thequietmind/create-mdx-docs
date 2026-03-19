@@ -2,7 +2,7 @@
 
 <p>
   <a href="https://github.com/thequietmind/mdx-docs">
-    <img src="https://img.shields.io/badge/GitHub-mdx--docs-black?logo=github" height="28">
+    <img src="https://img.shields.io/badge/GitHub-mdx--docs-black?logo=github" height="28" />
   </a>
 </p>
 
