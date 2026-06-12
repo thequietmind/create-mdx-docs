@@ -1,6 +1,6 @@
 {
   "name": "create-mdx-docs",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "type": "module",
   "description": "Create a new MDX Docs site",
   "bin": {
