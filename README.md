@@ -42,7 +42,7 @@ my-docs/
 
 - **`pages/`** — MDX content files, one per page
 - **`config/pages.js`** — registers pages and their routes
-- **`config/site.js`** — site name and description
+- **`config/site.js`** — site name and description (set `url` to enable canonical tags and a generated `sitemap.xml`)
 - **`vite.config.js`** — pre-configured Vite setup via `createMdxDocsConfig`
 
 ## Adding pages
