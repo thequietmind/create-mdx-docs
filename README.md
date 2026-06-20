@@ -14,7 +14,7 @@ Scaffold a new [MDX Docs](https://github.com/thequietmind/mdx-docs) site in seco
 
 ## Usage
 
-Install a new site with `mdx-docs`
+Create a new project with `mdx-docs`
 
 ```sh
 npx create-mdx-docs@latest my-docs
