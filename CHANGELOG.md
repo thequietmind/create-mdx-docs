@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-06-22
+
+### Fixed
+
+- Getting Started guide incorrectly stated that Material UI components could be
+  used without importing. The MDX provider only maps HTML elements, so an
+  un-imported component fails to render; the guide now shows importing MUI
+  components from `@mui/material`
+
+### Added
+
+- Example in the Getting Started guide showing how to import your own components
+  into an MDX page with a relative path
+
 ## [1.1.0] - 2026-06-19
 
 ### Added
