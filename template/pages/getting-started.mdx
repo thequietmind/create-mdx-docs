@@ -21,15 +21,27 @@ export const pages = [
 
 ## Using Components
 
-Any MUI component can be used directly in MDX without importing:
+Import any React component at the top of an MDX file, then use it inline in your content.
+
+[Material UI](https://mui.com/material-ui/) is already installed, so you can import any of its components:
 
 ```mdx
+import { Button } from "@mui/material";
+
 <Button variant="contained" color="primary">
   Click me
 </Button>
 ```
 
-For components outside of MUI, add an import at the top of the MDX file.
+Your own components work the same way — import them with a relative path from the `.mdx` file:
+
+```mdx
+import { Callout } from "../src/components/Callout.jsx";
+
+<Callout type="tip">
+  Register new pages in `config/pages.js`.
+</Callout>
+```
 
 ## Site Config
 
