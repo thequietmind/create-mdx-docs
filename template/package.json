@@ -16,12 +16,12 @@
     "@mui/icons-material": "^7.1.2",
     "@mui/material": "^7.1.2",
     "@quietmind/mdx-docs": "latest",
-    "@vitejs/plugin-react": "^4.4.1",
+    "@vitejs/plugin-react": "^6.0.2",
     "prism-react-renderer": "^2.4.1",
     "prismjs": "^1.30.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2",
-    "vite": "^6.4.1"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.0",
+    "vite": "^8.0.16"
   }
 }
