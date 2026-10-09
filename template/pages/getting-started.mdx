@@ -5,9 +5,9 @@
 Create a new `.mdx` file in the `pages/` directory, then register it in `config/pages.js`:
 
 ```js
-import { lazy } from "react";
+import { lazy } from "react"
 
-const MyPageMDX = lazy(() => import("@pages/my-page.mdx"));
+const MyPageMDX = lazy(() => import("@pages/my-page.mdx"))
 
 export const pages = [
   // ...existing pages
@@ -16,7 +16,7 @@ export const pages = [
     route: "/my-page",
     component: MyPageMDX,
   },
-];
+]
 ```
 
 ## Using Components
@@ -26,7 +26,7 @@ Import any React component at the top of an MDX file, then use it inline in your
 [Material UI](https://mui.com/material-ui/) is already installed, so you can import any of its components:
 
 ```mdx
-import { Button } from "@mui/material";
+import { Button } from "@mui/material"
 
 <Button variant="contained" color="primary">
   Click me
@@ -36,7 +36,7 @@ import { Button } from "@mui/material";
 Your own components work the same way — import them with a relative path from the `.mdx` file:
 
 ```mdx
-import { Callout } from "../src/components/Callout.jsx";
+import { Callout } from "../src/components/Callout.jsx"
 
 <Callout type="tip">
   Register new pages in `config/pages.js`.
@@ -51,5 +51,5 @@ Update `config/site.js` to set your site name and description:
 export const site = {
   name: "My Docs",
   description: "My project documentation",
-};
+}
 ```

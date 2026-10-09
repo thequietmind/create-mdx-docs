@@ -1,7 +1,7 @@
-import { lazy } from "react";
+import { lazy } from "react"
 
-const HomeMDX = lazy(() => import("@pages/index.mdx"));
-const GettingStartedMDX = lazy(() => import("@pages/getting-started.mdx"));
+const HomeMDX = lazy(() => import("@pages/index.mdx"))
+const GettingStartedMDX = lazy(() => import("@pages/getting-started.mdx"))
 
 export const pages = [
   {
@@ -18,4 +18,4 @@ export const pages = [
     title: "Getting Started — My Docs",
     description: "How to create pages and configure your MDX Docs site",
   },
-];
+]

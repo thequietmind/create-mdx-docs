@@ -75,7 +75,7 @@ Write **markdown** and use React components inline.
 Register it in `config/pages.js`:
 
 ```js
-const MyPageMDX = lazy(() => import("@pages/my-page.mdx"));
+const MyPageMDX = lazy(() => import("@pages/my-page.mdx"))
 
 export const pages = [
   // ...existing pages
@@ -84,7 +84,7 @@ export const pages = [
     route: "/my-page",
     component: MyPageMDX,
   },
-];
+]
 ```
 
 ## License

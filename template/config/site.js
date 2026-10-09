@@ -4,4 +4,4 @@ export const site = {
   // Set your site's absolute URL to enable per-page canonical tags and a
   // generated sitemap.xml at build time (e.g. "https://docs.example.com").
   // url: "https://docs.example.com",
-};
+}
