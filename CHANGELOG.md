@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-10-09
+
+### Fixed
+
+- New projects install with npm again. The template's `vite` and
+  `@vitejs/plugin-react` ranges were older than what `@quietmind/mdx-docs`
+  requires, so `npm install` failed with ERESOLVE. The template's dependencies
+  now match its peer ranges
+- New projects build again. The prerender step looks for `main.jsx` at the
+  project root, but the template keeps it in `src/`, so `vite.config.js` now
+  passes `entry: "src/main.jsx"`
+
+### Changed
+
+- New projects start on Material UI 9
+- create-mdx-docs and the projects it generates now require Node
+  `^20.19.0 || >=22.12.0`, matching Vite 8. Projects generated on older Node
+  versions already failed to build; this states the requirement up front
+- Template code and the README's code samples no longer use semicolons
+
+### Notes
+
+- 1.1.1 was tagged but never published to npm. 1.2.0 includes its changes
+
 ## [1.1.1] - 2026-06-22
 
 ### Fixed
